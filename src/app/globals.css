@@ -11,7 +11,7 @@
         font-family: Arial, Helvetica, sans-serif; } */
 
 
-        @import "tailwindcss";
+        /* @import "tailwindcss";
 
 :root {
   --background: #ffffff;
@@ -32,5 +32,24 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+@import "tailwindcss";
+
+/* Force Light Theme */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background-color: #ffffff !important;
+  color: #171717 !important;
   font-family: Arial, Helvetica, sans-serif;
 }
