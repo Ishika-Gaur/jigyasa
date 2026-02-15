@@ -7,7 +7,8 @@ export const doctorsData = [
     specialization: "General Medicine",
     image: "/doctors/best-consultant-physician-dr-cp-singh.png",
     description:
-      "MBBS, MD (Medicine) from KGMC Lucknow. Senior Consultant Physician providing comprehensive medical care.",
+  "Dr. C.P. Singh is a highly experienced Senior Consultant Physician with an MBBS and MD (Medicine) from KGMC, Lucknow. With decades of expertise in internal medicine, he specializes in diagnosing and managing complex medical conditions including diabetes, hypertension, infectious diseases, and respiratory disorders. He is known for his patient-centered approach, accurate diagnosis, and evidence-based treatment plans. As Chairman of Jigyasa Hospital, he is committed to delivering high-quality, ethical, and affordable healthcare services.",
+
     timing: {
       days: "Monday to Saturday",
       hours: "12:00 PM - 5:00 PM",
@@ -31,7 +32,8 @@ export const doctorsData = [
     specialization: "Cardiology",
     image: "/doctors/best-cardiologist-dr-amit-kumar-singh.png",
     description:
-      "MD from BHU and DM in Cardiology from KGMU. FSCAI certified Interventional Cardiologist.",
+  "Dr. Amit Kumar Singh is a Senior Interventional Cardiologist with an MD from BHU and DM in Cardiology from KGMU. He is FSCAI certified and specializes in advanced cardiac procedures including angioplasty, stenting, pacemaker implantation, and valve interventions. With extensive experience in managing heart attacks, heart failure, and complex cardiac disorders, he provides comprehensive heart care using the latest technology and evidence-based practices."
+,
     timing: {
       days: "Monday to Saturday",
       hours: "12:00 PM - 4:00 PM",
@@ -46,8 +48,9 @@ export const doctorsData = [
     designation: "OBS & Gynecologist",
     specialization: "Obstetrics & Gynecology",
     image: "/doctors/best-gynecologist-dr-akansha.png",
-    description:
-      "MBBS, MS in Obstetrics & Gynecology with Fellowship in ART.",
+   description:
+  "Dr. Akansha Singh is an experienced Obstetrician & Gynecologist with an MS in OBG and Fellowship in ART. She specializes in high-risk pregnancy management, infertility treatment, IVF, and laparoscopic gynecological procedures. She provides compassionate and personalized care for women at every stage of life, from adolescence to menopause, ensuring safe motherhood and reproductive health excellence."
+,
     timing: {
       days: "Monday to Saturday",
       hours: "11:00 AM - 1:00 PM",
@@ -63,7 +66,8 @@ export const doctorsData = [
     specialization: "Pediatrics",
     image: "/doctors/best-pediatrician-dr-sana-ibad-khan.png",
     description:
-      "MD in Pediatrics with Fellowship in Neonatology.",
+  "Dr. Sana Ibad Khan is a Senior Pediatrician and Neonatologist with an MD in Pediatrics and fellowship training in Neonatology. She has extensive experience in newborn intensive care, child growth monitoring, vaccination programs, and management of pediatric illnesses. She is dedicated to ensuring healthy development and providing specialized care for premature and high-risk newborns."
+,
     timing: {
       days: "Monday to Saturday",
       hours: "10:00 AM - 2:00 PM & 5:00 PM - 7:00 PM",
@@ -80,7 +84,8 @@ export const doctorsData = [
     specialization: "Orthopedics",
     image: "/doctors/best-orthopediacian-dr-shariq.png",
     description:
-      "MBBS with Diploma in Orthopedics (D. Ortho).",
+  "Dr. Shariq Ahmad is a Senior Orthopedician and Joint Replacement Surgeon with a Diploma in Orthopedics. He specializes in knee and hip replacement surgeries, fracture management, sports injuries, and spine-related disorders. Using advanced surgical techniques and rehabilitation protocols, he focuses on restoring mobility and improving patients’ quality of life."
+,
     timing: {
       days: "Monday to Saturday",
       hours: "10:00 AM - 12:00 PM & 5:00 PM - 7:00 PM",
@@ -96,7 +101,8 @@ export const doctorsData = [
     specialization: "General & Laparoscopic Surgery",
     image: "/doctors/best-laparscopic-surgeon-dr-vibhor-agarwal.jpg",
     description:
-      "MBBS, MS with FIAGES certification in Laparoscopic Surgery.",
+  "Dr. Vibhor Agarwal is a skilled General and Laparoscopic Surgeon with MS and FIAGES certification. He is proficient in minimally invasive surgeries including appendectomy, hernia repair, gallbladder surgery, and thyroid procedures. His expertise ensures faster recovery, minimal pain, and improved surgical outcomes for patients."
+,
     timing: {
       days: "Monday to Saturday",
       hours: "11:00 AM - 1:00 PM",
@@ -112,7 +118,8 @@ export const doctorsData = [
     specialization: "Neuropsychiatry",
     image: "/doctors/best-neuropsychiatrist-dr-imran.png",
     description:
-      "MBBS from KGMU Lucknow with DPM (MD) in Psychiatry.",
+  "Dr. Imran is a Consultant Neuropsychiatrist with MBBS from KGMU and DPM (MD) in Psychiatry. He specializes in treating neurological and psychiatric disorders including epilepsy, depression, anxiety, schizophrenia, and dementia. He adopts a holistic treatment approach combining medication, counseling, and behavioral therapy for long-term mental wellness."
+,
     timing: {
       days: "Monday to Saturday",
       hours: "11:00 AM - 3:00 PM",
@@ -128,7 +135,8 @@ export const doctorsData = [
     specialization: "Rheumatology",
     image: "/doctors/best-rheumatologist-dr-kriti-kishor.png",
     description:
-      "MBBS, MD and DM in Rheumatology from KGMU.",
+  "Dr. Kriti Kishore is a Senior Consultant Rheumatologist with DM in Rheumatology from KGMU. She specializes in autoimmune and inflammatory joint disorders such as rheumatoid arthritis, lupus, gout, and ankylosing spondylitis. She provides comprehensive treatment plans focused on pain relief, inflammation control, and long-term disease management."
+,
     timing: {
       days: "2nd and 4th Saturday",
       hours: "11:00 AM - 3:00 PM",
@@ -143,8 +151,9 @@ export const doctorsData = [
     designation: "Senior Plastic & Cosmetic Surgeon",
     specialization: "Plastic Surgery",
     image: "/doctors/best-plastic-surgery-dr-anil-rajput.png",
-    description:
-      "MCh in Plastic Surgery with FLCS and FIHRS certifications.",
+   description:
+  "Dr. Anil Rajput is a Senior Plastic and Cosmetic Surgeon with MCh in Plastic Surgery along with FLCS and FIHRS certifications. He specializes in reconstructive surgeries, burn management, hair transplant, cosmetic facial procedures, and body contouring. His approach combines surgical precision with aesthetic excellence to achieve natural-looking results."
+,
     timing: {
       days: "Every Tuesday",
       hours: "12:00 PM - 4:00 PM",
@@ -154,13 +163,14 @@ export const doctorsData = [
 
   {
     id: 10,
-    name: "Dr. Abida Ali",
+    name: "Dr. Abida ",
     title: "MBBS, MD (Dermatology)",
     designation: "Consultant Dermatologist",
     specialization: "Dermatology",
     image: "/doctors/best-dermatology-dr-abida-ali.png",
-    description:
-      "MBBS, MD in Dermatology.",
+   description:
+  "Dr. Abida  is a Consultant Dermatologist with MD in Dermatology. She specializes in medical and cosmetic dermatology including acne treatment, pigmentation disorders, psoriasis, eczema, and hair loss therapies. She provides personalized skincare solutions using modern dermatological technologies."
+,
     timing: {
       days: "Monday to Saturday",
       hours: "11:00 AM - 3:00 PM",
@@ -176,7 +186,8 @@ export const doctorsData = [
     specialization: "Endocrinology",
     image: "/doctors/best-endocrinologist-dr-ashish-gupta.png",
     description:
-      "MD from AIIMS New Delhi and DM in Endocrinology from PGIMER Chandigarh.",
+  "Dr. Ashish Gupta is a Consultant Endocrinologist with MD from AIIMS New Delhi and DM in Endocrinology from PGIMER Chandigarh. He specializes in managing diabetes, thyroid disorders, hormonal imbalances, osteoporosis, and metabolic conditions. He provides advanced endocrine care with a focus on long-term disease control and lifestyle management."
+,
     timing: {
       days: "2nd and 4th Saturday",
       hours: "10:00 AM - 2:00 PM",
@@ -192,7 +203,8 @@ export const doctorsData = [
     specialization: "Ophthalmology",
     image: "/doctors/best-opthalmologist-dr-deeksha-singh.png",
     description:
-      "MBBS and MS in Ophthalmology providing comprehensive eye care services.",
+  "Dr. Deeksha Singh is a Consultant Ophthalmologist with MS in Ophthalmology. She provides comprehensive eye care services including cataract surgery, glaucoma management, retinal disorders treatment, and refractive error correction. She is committed to preserving vision through early diagnosis and advanced surgical techniques."
+,
     timing: {
        days: "As per appointment",
       hours: "Consultation by appointment",
@@ -208,7 +220,8 @@ export const doctorsData = [
     specialization: "Gastroenterology",
     image: "/doctors/best-gastroenterologist-dr-pavitra-sahu.png",
     description:
-      "Specialist in Gastroenterology and Hepatology providing advanced digestive and liver care.",
+  "Dr. Pabitra Sahu is a Consultant Gastroenterologist specializing in digestive and liver disorders. He provides advanced care for GERD, hepatitis, liver cirrhosis, IBD, and pancreatic diseases. He is skilled in diagnostic procedures like endoscopy and colonoscopy for accurate evaluation and treatment."
+,
     timing: {
       days: "First and Third Monday in a Month",
       hours: "1pm to 2pm",
@@ -224,7 +237,8 @@ export const doctorsData = [
     specialization: "Urology",
     image: "/doctors/best-urologist-dr-parnesh.png",
     description:
-      "Specialist in Urology and Robotic Surgery including kidney and urinary tract procedures.",
+  "Dr. Pragnesh Desai is a Consultant Urologist and Robotic Surgeon specializing in kidney stones, prostate disorders, urinary tract infections, and urological cancers. He performs advanced minimally invasive and robotic-assisted surgeries to ensure precision and faster recovery."
+,
     timing: {
       days: "As per appointment",
       hours: "11am to 2pm",
@@ -239,8 +253,9 @@ export const doctorsData = [
     designation: "Consultant Hematologist",
     specialization: "Hematology",
     image: "/doctors/best-hematogist-dr-faran.png",
-    description:
-      "Specialist in Hematology and Bone Marrow Transplant for blood disorders.",
+   description:
+  "Dr. Faran Naim is a Consultant Hematologist specializing in blood disorders and bone marrow transplant. He treats leukemia, lymphoma, anemia, thalassemia, and clotting disorders. He provides comprehensive hematology care including advanced stem cell transplantation therapies."
+,
     timing: {
       days: "As per appointment",
       hours: "Consultation by appointment",
@@ -256,7 +271,8 @@ export const doctorsData = [
     specialization: "GI Surgery",
     image: "/doctors/best-gi-surgeon-dr-rahul-singh.png",
     description:
-      "Specialist in advanced gastrointestinal and minimally invasive surgeries.",
+  "Dr. Rahul Kumar is a Senior GI Surgeon specializing in complex gastrointestinal surgeries including liver, pancreas, and colorectal procedures. He performs advanced minimally invasive and oncological surgeries with a focus on improved recovery and long-term outcomes."
+,
     timing: {
       days: "As per appointment",
       hours: "Consultation by appointment",
@@ -272,7 +288,8 @@ export const doctorsData = [
     specialization: "Gynecology & IVF",
     image: "/doctors/best-gynaecologist-dr-karishma.png",
     description:
-      "Specialist in IVF and advanced laparoscopic gynecologic procedures.",
+  "Dr. Karishma Singh is an IVF Specialist and Laparoscopic Gynecologic Surgeon. She provides advanced fertility treatments including IVF, ICSI, egg freezing, and hysteroscopy. She focuses on personalized reproductive care with high success rates and compassionate patient support."
+,
     timing: {
       days: "As per appointment",
       hours: "Consultation by appointment",
@@ -288,7 +305,8 @@ export const doctorsData = [
     specialization: "Family Medicine",
     image: "/doctors/best-family-physician-dr-ankit-singh.png",
     description:
-      "Family Physician providing comprehensive primary healthcare services.",
+  "Dr. Ankit Singh is a Consultant Family Physician providing comprehensive primary healthcare for all age groups. He focuses on preventive healthcare, chronic disease management, routine checkups, and lifestyle counseling to promote long-term wellness and early disease detection."
+,
     timing: {
       days: "Monday to Saturday",
       hours: "9:00 AM - 5:00 PM",
