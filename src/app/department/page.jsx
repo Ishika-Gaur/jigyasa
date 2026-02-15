@@ -143,7 +143,7 @@ export default function Department() {
             transition-all duration-300 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl"
           >
             {/* Circular Image */}
-            <div className="relative w-16 h-16 md:w-20 md:h-20 mb-4 md:mb-6 mx-auto rounded-full overflow-hidden shadow-md ring-4 ring-teal-100">
+            <div className="relative w-16 h-16 md:w-20 md:h-20 mb-4 md:mb-6 rounded-full overflow-hidden shadow-md ring-4 ring-teal-100">
               <Image
                 src={dept.image}
                 alt={dept.title}
@@ -153,12 +153,12 @@ export default function Department() {
             </div>
 
             {/* Title */}
-            <h3 className="text-base md:text-xl font-bold mb-2 md:mb-4 text-gray-900 hover:text-teal-500 transition-colors text-center md:text-left">
+            <h3 className="text-base md:text-xl font-bold mb-2 md:mb-4 text-gray-900 hover:text-teal-500 transition-colors text-left">
               {dept.title}
             </h3>
 
             {/* Description */}
-            <p className="text-gray-600 text-xs md:text-sm leading-relaxed line-clamp-4 md:line-clamp-5">
+            <p className="text-gray-600 text-xs md:text-sm leading-relaxed line-clamp-4 md:line-clamp-5 text-left">
               {dept.desc}
             </p>
           </div>

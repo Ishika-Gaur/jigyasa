@@ -138,7 +138,7 @@ export const doctorsData = [
   "Dr. Kriti Kishore is a Senior Consultant Rheumatologist with DM in Rheumatology from KGMU. She specializes in autoimmune and inflammatory joint disorders such as rheumatoid arthritis, lupus, gout, and ankylosing spondylitis. She provides comprehensive treatment plans focused on pain relief, inflammation control, and long-term disease management."
 ,
     timing: {
-      days: "2nd and 4th Saturday",
+      days: "2nd Sunday for every month",
       hours: "11:00 AM - 3:00 PM",
     },
     diseases: [ { name: "Rheumatoid Arthritis", description: "Autoimmune disorder causing joint inflammation and pain" }, { name: "Osteoarthritis", description: "Degenerative joint disease causing pain and stiffness" }, { name: "Gout", description: "Arthritis caused by uric acid crystal buildup in joints" }, { name: "Lupus (SLE)", description: "Systemic autoimmune disease affecting multiple organs" }, { name: "R.A Factor or ANA or HLA-B27 Positive", description: "Autoimmune markers indicating rheumatic conditions" }, { name: "Ankylosing Spondylitis", description: "Inflammatory arthritis primarily affecting the spine" }, { name: "Joint Pain", description: "Pain in knees and other joints affecting mobility" }, { name: "Psoriatic Arthritis", description: "Arthritis associated with skin condition psoriasis" }, { name: "High Uric Acid", description: "Elevated uric acid levels causing joint problems" }, { name: "Joint Swelling", description: "Inflammation and swelling in various joints" } ]
@@ -155,7 +155,7 @@ export const doctorsData = [
   "Dr. Anil Rajput is a Senior Plastic and Cosmetic Surgeon with MCh in Plastic Surgery along with FLCS and FIHRS certifications. He specializes in reconstructive surgeries, burn management, hair transplant, cosmetic facial procedures, and body contouring. His approach combines surgical precision with aesthetic excellence to achieve natural-looking results."
 ,
     timing: {
-      days: "Every Tuesday",
+      days: "Every Thursday",
       hours: "12:00 PM - 4:00 PM",
     },
     diseases: [ { name: "Burns and Post-Burn Complications", description: "Treatment for burn injuries and contracture release" }, { name: "Cleft Lip/Palate", description: "Congenital facial deformities requiring surgical correction" }, { name: "Facial Trauma", description: "Repair of facial injuries and fractures" }, { name: "Hair Transplant", description: "Surgical hair restoration procedures" }, { name: "Rhinoplasty", description: "Cosmetic and functional nose surgery" }, { name: "Breast Surgery", description: "Augmentation, reduction, and reconstruction" }, { name: "Liposuction", description: "Fat removal for body contouring" }, { name: "Facelift/Anti-aging", description: "Facial rejuvenation procedures" }, { name: "Scar Revision", description: "Improvement of appearance of scars" }, { name: "Hand Surgery", description: "Reconstructive procedures for hand injuries" }, { name: "Botox/Filler Injection", description: "Non-surgical facial enhancement treatments" } ]
@@ -189,7 +189,7 @@ export const doctorsData = [
   "Dr. Ashish Gupta is a Consultant Endocrinologist with MD from AIIMS New Delhi and DM in Endocrinology from PGIMER Chandigarh. He specializes in managing diabetes, thyroid disorders, hormonal imbalances, osteoporosis, and metabolic conditions. He provides advanced endocrine care with a focus on long-term disease control and lifestyle management."
 ,
     timing: {
-      days: "2nd and 4th Saturday",
+      days: "2nd & 4th Sunday for every month",
       hours: "10:00 AM - 2:00 PM",
     },
     diseases: [ { name: "Diabetes Related Problems", description: "Type 1, Type 2 diabetes and complications management" }, { name: "Thyroid Disorders", description: "Hyperthyroidism, hypothyroidism, and thyroid nodules" }, { name: "Osteoporosis", description: "Bone density loss requiring treatment" }, { name: "Obesity", description: "Medical treatment for excessive weight and metabolic issues" }, { name: "PCOS & Ovarian Issues", description: "Hormonal disorders affecting fertility and menstruation" }, { name: "Growth Issues", description: "Short stature and growth hormone deficiency" }, { name: "Pituitary Disorders", description: "Problems with hormone-producing pituitary gland" }, { name: "High Cholesterol", description: "Lipid disorders requiring medical management" }, { name: "Vitamin Deficiencies", description: "Treatment for low vitamin D, B12 and other deficiencies" }, { name: "Adrenal Disorders", description: "Conditions affecting adrenal gland function" } ]
@@ -274,8 +274,8 @@ export const doctorsData = [
   "Dr. Rahul Kumar is a Senior GI Surgeon specializing in complex gastrointestinal surgeries including liver, pancreas, and colorectal procedures. He performs advanced minimally invasive and oncological surgeries with a focus on improved recovery and long-term outcomes."
 ,
     timing: {
-      days: "As per appointment",
-      hours: "Consultation by appointment",
+      days: "Monday - Saturday",
+      hours: "1pm - 4pm",
     },
     diseases: [ { name: "Colorectal Cancer", description: "Surgical treatment of colon and rectal malignancies" }, { name: "Liver Surgery", description: "Hepatic resection and tumor removal" }, { name: "Pancreatic Surgery", description: "Complex surgical procedures for pancreatic diseases" }, { name: "Esophageal Surgery", description: "Treatment for esophageal cancer and disorders" }, { name: "IBD Surgery", description: "Surgical intervention for inflammatory bowel disease" }, { name: "Advanced Hernia Repair", description: "Complex abdominal wall reconstruction" }, { name: "Gallbladder Surgery", description: "Laparoscopic cholecystectomy" }, { name: "Bariatric Surgery", description: "Weight loss surgical procedures" }, { name: "GI Cancer Surgery", description: "Oncological gastrointestinal operations" } ]
   },
@@ -291,8 +291,8 @@ export const doctorsData = [
   "Dr. Karishma Singh is an IVF Specialist and Laparoscopic Gynecologic Surgeon. She provides advanced fertility treatments including IVF, ICSI, egg freezing, and hysteroscopy. She focuses on personalized reproductive care with high success rates and compassionate patient support."
 ,
     timing: {
-      days: "As per appointment",
-      hours: "Consultation by appointment",
+      days: "Monday-Saturday",
+      hours: "12pm - 5pm ",
     },
     diseases: [ { name: "IVF Treatment", description: "In vitro fertilization for couples unable to conceive naturally" }, { name: "ICSI", description: "Intracytoplasmic sperm injection for severe male infertility" }, { name: "Egg Freezing", description: "Fertility preservation for future family planning" }, { name: "Surrogacy", description: "Gestational carrier arrangements and support" }, { name: "Endometriosis Surgery", description: "Laparoscopic removal of endometrial tissue" }, { name: "Ovulation Issues", description: "Treatment for irregular ovulation and hormonal imbalances" }, { name: "Fibroid Removal", description: "Minimally invasive uterine fibroid surgery" }, { name: "Ovarian Cysts", description: "Diagnosis and surgical removal of cysts" }, { name: "Hysteroscopy", description: "Examination and treatment of uterine abnormalities" }, { name: "Recurrent Miscarriage", description: "Investigation and management of pregnancy loss" } ]
   },

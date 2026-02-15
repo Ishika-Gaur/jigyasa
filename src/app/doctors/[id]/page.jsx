@@ -52,13 +52,13 @@ export default function DoctorProfile() {
         <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center gap-10">
 
           {/* Doctor Image */}
-          <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
+          <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl bg-white">
             <img
               src={doctor.image}
               alt={doctor.name}
               className="w-full h-full object-cover"
               onError={(e) => {
-                e.target.src = `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="256" height="256"%3E%3Crect fill="%2314b8a6" width="256" height="256"/%3E%3Ctext x="50%25" y="50%25" font-size="96" text-anchor="middle" dy=".3em" fill="white"%3E${doctor.name.charAt(0)}%3C/text%3E%3C/svg%3E`;
+                e.target.src = `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="256" height="256"%3E%3Crect fill="%23ffffff" width="256" height="256"/%3E%3Ctext x="50%25" y="50%25" font-size="96" text-anchor="middle" dy=".3em" fill="%2314b8a6"%3E${doctor.name.charAt(0)}%3C/text%3E%3C/svg%3E`;
               }}
             />
           </div>
