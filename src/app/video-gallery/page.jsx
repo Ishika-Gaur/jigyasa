@@ -48,7 +48,7 @@ export default function HospitalVideoGallery() {
       id: 5,
       category: 'doctors',
       videoUrl: 'heartCareAdvice.mp4',
-      thumbnail: '/doctors/best-cardiologist-dr-amit-kumar-singh',
+      thumbnail: '/doctors/best-cardiologist-dr-amit-kumar-singh.png',
       title: 'Heart Care Advice by Dr. Amit Kumar Singh',
       description: 'Learn about our patient-centered approach to healthcare and recovery.',
       duration: '1:24'
